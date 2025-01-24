@@ -80,7 +80,7 @@ const TopNavigationBar = ({ isAuthenticated, username, handleLogout }) => {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute top-0 left-0 w-full bg-blue-600 md:hidden transform ${
+        className={`absolute top-0 left-0 w-full bg-white md:hidden transform ${
           navOpen ? "translate-y-0 mt-16" : "-translate-y-full"
         } transition-transform duration-300`}
       >
@@ -95,31 +95,35 @@ const TopNavigationBar = ({ isAuthenticated, username, handleLogout }) => {
             </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/my-courses"
               className="hover:text-gray-300"
               onClick={() => setNavOpen(false)}
             >
-              About
-            </a>
+              MyCourses
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              className="hover:text-gray-300"
-              onClick={() => setNavOpen(false)}
+            <Link
+              to="/register"
+              className="hover:bg-green-600 bg-green-500 py-1 px-1 text-white rounded-md"
+              onClick={() => {
+                navigate("/register");
+              }}
             >
-              Services
-            </a>
+              Register
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              className="hover:text-gray-300"
-              onClick={() => setNavOpen(false)}
+            <Link
+              to="/login"
+              className="hover:bg-blue-600 bg-blue-500 py-1 px-1 rounded-md text-white"
+              onClick={() => {
+                navigate("/login");
+              }}
             >
-              Contact
-            </a>
+              Login
+            </Link>
           </li>
         </ul>
       </div>
