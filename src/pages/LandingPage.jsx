@@ -64,12 +64,12 @@ const LandingPage = () => {
           {courses?.data?.map((course) => (
             <div
               key={course.id}
-              className="card-img shadow-md rounded-md p-5 flex items-center justify-center flex-col"
+              className="card-img shadow-md rounded-md p-5 flex items-center justify-center flex-col border-2"
             >
               <img
                 src={course.imageUrl}
                 alt="course-img"
-                className="object-cover object-center w-[250px] h-[250px] bg-center"
+                className="object-cover object-center w-[250px] h-[250px] bg-center rounded-md"
               />
               <h3 className="text-md my-5">{course.name}</h3>
               <Link

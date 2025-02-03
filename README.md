@@ -1,8 +1,38 @@
-# React + Vite
+# Table of Content
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Tech Stack
+- Features
 
-Currently, two official plugins are available:
+# Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite
+- jwt-decode
+- react-router-dom
+- react-spinners
+- react-hot-toats
+- tailwind-css
+- Express
+- uuid
+- sequelize
+- sequelize-cli
+- mysql2
+- cors
+- dotenv
+- Joi
+- bcrypt
+- jasonwebtoken
+- faker
+
+# Feature
+
+- Login: masuk ke halaman login, kemudian masukan input email dan password.
+- Register: masuk ke halaman register, lalu isi form register untuk mendaftarkan
+  account.
+- DaftarCourses: klik menu detail pada section Courses, kemudian pilih jadwal dan
+  mendaftar course yang sesuai.
+- MyCourse: ketika user telah mendapaftar course maka , setiap pilihan course
+  yang di daftarkan dapat dilihat di halaman MyCourses.
+
+# Repo Back End
+
+[Courses-App-BE](https://github.com/rofiday/Courses-App-BE)
