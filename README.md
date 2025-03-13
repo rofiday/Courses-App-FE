@@ -16,9 +16,9 @@ membuat aplikasi pendaftaran kursus online , yang dimana user dapat mendaftarkan
 |--------------------|--------------------------------------------- |
 | **Auth**          | ✅ login menggunkan email dan password		|
 |                  	| 🗝️logout                    |                	|
+|					|✅ registrasi account						
 | **Courses**       |📚 Memilih course dan jadwal yang tersedia                  |
-| **My Courses**    | 📚 Menampilkan courses yang dipilih oleh user  
-
+| **My Courses**    | 📚 Menampilkan courses yang dipilih oleh user
 
 # 🚀Installation
 
@@ -38,7 +38,6 @@ membuat aplikasi pendaftaran kursus online , yang dimana user dapat mendaftarkan
 
 # 🔐Env Variables
    
-		   
-			   VITE_API_URL= you_api_url
+	VITE_API_URL= you_api_url
 
 
